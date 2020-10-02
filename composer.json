@@ -1,0 +1,15 @@
+{
+    "name": "composer-fallback/redis.predis",
+    "description": "Satisfy \"redis\" with packages provided by user, or fallback to \"predis\".",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": [
+        "composer",
+        "fallback",
+        "default",
+        "redis"
+    ],
+    "require": {
+        "predis/predis": "*"
+    }
+}
